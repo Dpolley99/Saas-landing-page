@@ -20,14 +20,11 @@ const Pricing = () => {
             <div key={key} className="relative group h-full">
               <div className="bg-linear-to-r from-blue-600 to-violet-600 p-1 rounded-3xl h-full">
                 <div
-                  className="bg-box-bg border border-box-border rounded-3xl shadow-lg shadow-box-shadow
-                                p-8 flex flex-col h-full relative"
+                  className="bg-box-bg border border-box-border rounded-3xl shadow-lg shadow-box-shadow p-8 flex flex-col h-full relative"
                 >
                   {plan.bestValue && (
                     <div
-                      className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary
-                                                    text-white text-xs font-bold uppercase tracking-wider
-                                                    px-3 py-1 rounded-full bg-linear-to-r from-blue-600 to-violet-600"
+                      className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primarytext-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-linear-to-r from-blue-600 to-violet-600"
                     >
                       Best Value
                     </div>
