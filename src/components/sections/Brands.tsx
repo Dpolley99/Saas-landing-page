@@ -22,7 +22,7 @@ const Brands = () => {
           {logo.map((logo, key) => (
             <div
               key={key}
-              className="p-4 sm:p-5 rounded-xl bg-body group flex flex-1 gap-x-2 justify-center"
+              className="p-4 sm:p-5 rounded-xl bg-body group gap-x-2 justify-center"
             >
               <img
                 src={`src/assets/logo/${logo}.png`}
