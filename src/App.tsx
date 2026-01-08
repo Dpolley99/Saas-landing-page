@@ -1,7 +1,8 @@
 import {Layout} from './components/Layout'
+import AboutUs from './components/sections/AboutUs'
 import Brands from './components/sections/Brands'
 import Hero from './components/sections/Hero'
-import { Services } from './components/sections/Services'
+import Services from './components/sections/Services'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Brands />
       <Services />
+      <AboutUs />
     </Layout>
   )
 }

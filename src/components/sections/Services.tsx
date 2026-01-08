@@ -4,7 +4,7 @@ import Container from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
 import { Title } from "../shared/Title";
 
-export const Services = () => {
+const Services = () => {
   return (
     <section id="services">
       {" "}
@@ -31,3 +31,5 @@ export const Services = () => {
     </section>
   );
 };
+
+export default Services
